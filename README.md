@@ -1,206 +1,54 @@
-<h1 align="center">
-    Logseq-Hugo-Template
-</h1>
-
-<p align="center">
-    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/stargazers">
-    <img
-        alt="GitHub Repo stars"
-        src="https://img.shields.io/github/stars/CharlesChiuGit/Logseq-Hugo-Template?color=957FB8&logo=starship&style=for-the-badge">
-    </a>
-    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues">
-    <img
-        alt="GitHub issues"
-        src="https://img.shields.io/github/issues-raw/CharlesChiuGit/Logseq-Hugo-Template?color=DCA561&logo=gitbook&logoColor=d9e0ee&style=for-the-badge">
-    <a href="https://github.com/CharlesChiuGit/Logseq-Hugo-Template/contributors">
-    <img
-        alt="GitHub contributors"
-        src="https://img.shields.io/github/contributors/CharlesChiuGit/Logseq-Hugo-Template?color=%2398BB6C&logo=opensourceinitiative&logoColor=d9e0ee&style=for-the-badge">
-    </a>
-    <img
-        alt="GitHub code size in bytes"
-        src="https://img.shields.io/github/languages/code-size/CharlesChiuGit/Logseq-Hugo-Template?color=%237E9CD8&logo=gitlfs&logoColor=d9e0ee&style=for-the-badge">
-</p>
-
-<p align="center">
-    <img
-        alt="HTML"
-        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-    <a href="https://logseq.com/#/">
-    <img
-        alt="Logseq"
-        src="https://img.shields.io/static/v1?label=&message=LOGSEQ&color=002B35&style=for-the-badge">
-    </a>
-</a>
-
-## Description
-
-This is a [HUGO](https://gohugo.io/) website template for [Logseq](https://logseq.com/#/) users who want their published posts to look more like a personal website, using [GitHub Pages](https://pages.github.com/) to host the website and [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export your Logseq pages.
-
-<p align="center">
-        <img src="./src/thanos_logseq_hugo.svg" style="width:50%"/>
-</p>
-
-## Credits
-
-Credits to [Alex QWxleA](https://github.com/QWxleA) and [Aryan Sawhney](https://github.com/sawhney17) for inspiring this template.
-
+---
+cover: .gitbook/assets/2.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-## Why use [Logseq-Hugo-Template](https://github.com/CharlesChiuGit/Logseq-Hugo-Template) to build a website?
+# Energonos - Manifest des Strommarktdesigns 2024
 
-Although the native publish function in Logseq is very convenient, it's output result is more like a read-only Logseq, rather than a personal website.
+Im Zuge der Energiewende und der neuen Anforderungen an eine nachhaltige und flexible Energieversorgung müssen verschiedene bisherige Praktiken und Mechanismen überdacht und verändert werden. Die folgenden Praktiken sind in einem modernen Strommarktdesign nicht mehr zeitgemäß und sollten daher ersetzt werden.
 
-### Why HUGO?
+1.  **Nutzung der EPEX Spot als Spotmarkt für Ausgleichsenergie bei Bilanzkreisen zur Wertbestimmung von Strom**
 
-You can use [Markdown](https://www.markdownguide.org/) to write your posts/contents in HUGO.
+    Der EPEX Spotmarkt sollte nicht länger die primäre Referenz für die Wertbestimmung von Ausgleichsenergie sein. Stattdessen sollten dynamische und regional differenzierte Märkte geschaffen werden, die die tatsächlichen Kosten und Anforderungen der Netzstabilität besser abbilden.
+2.  **Optimierung von Redispatch ohne eine vorhergehende Veränderung des Dispatches**
 
-### Why GitHub Pages?
+    Redispatch-Maßnahmen, die nur auf nachträgliche Ausgleichsmaßnahmen abzielen, ohne eine vorhergehende Optimierung des Dispatches, sind ineffizient. Ein integriertes Management, das sowohl Dispatch- als auch Redispatch-Maßnahmen umfasst, sollte implementiert werden.
+3.  **Bedingungslose Einspeisung ohne eine Kapazitätsabsicherung beim Erzeuger**
 
-You can host your website directly from your GitHub repo, and it cost you nothing.
+    Die Garantie der Einspeisung von Strom ins Netz ohne eine vorhergehende Kapazitätsabsicherung gefährdet die Netzstabilität. Neue Mechanismen zur Kapazitätsabsicherung beim Erzeuger sollten eingeführt werden, um eine stabile und verlässliche Einspeisung zu gewährleisten.
+4. **Ausschluss von Kleinerzeugern/Kleinverbrauchern vom aktiven Stromhandel**\
+   Der bisherige Ausschluss von Kleinerzeugern und Kleinverbrauchern vom aktiven Stromhandel grenzt wichtige Akteure aus. Eine Öffnung des Marktes, inklusive vereinfachter Zugangsmöglichkeiten und entsprechender Anreize, ist notwendig, um die Flexibilität im Netz zu erhöhen.
+5.  **Zentralisierung der Strompreise ohne Berücksichtigung der Kosten der Stromlogistik**
 
----
+    Die zentralisierte Festlegung von Strompreisen, die die regional unterschiedlichen Kosten der Stromlogistik nicht berücksichtigt, ist ineffizient und ungerecht. Regionale Marktmechanismen, die diese Kostenfaktoren miteinbeziehen, müssen etabliert werden.\
+    \
+    Der GrünstromIndex, der den Grad der Deckung des Strombedarfs durch lokale Erzeugung anzeigt, kann als Indikator und vorhandenes lokales Preissignal zur Lösung des Problems herangezogen werden. Dieser Index unterstützt die Flexibilisierung und die lokale Anpassung der Stromnachfrage, indem er klare Signale für die Verfügbarkeit von Grünstrom liefert.
+6.  **Ignorieren der ungeplanten Nichtverfügbarkeiten der konventionellen, thermischen Kraftwerke**
 
-## 🧱 Template Structure
+    Die ungeplanten Nichtverfügbarkeiten von konventionellen, thermischen Kraftwerken sollten nicht ignoriert werden. Stattdessen müssen flexible und dezentrale Lösungen entwickelt werden, die diese Unwägbarkeiten abfangen und kompensieren können, um die Versorgungssicherheit zu erhöhen.
+7.  **Fehlende Souveränität am Netzanschlusspunkt**
 
-```bash
-├── archetypes/    # A piece of content that's common to all of the content on your website.
-│   └── default.md
-├── content/    # Where you store all the content for your website.
-│   ├── assets/    # Things from LogseqGraph/assets, used in posts.
-│   │   └── test.png
-│   ├── pages/    # Revised Logseq pages with metadata sections for Hugo.
-│   │   └── random page from logseq.md
-│   ├── archives.md
-│   └── search.md
-├── .github/    # Define GitHub action to help deploy in one click.
-│   └── workflows/
-│       └── publish.yml
-├── layouts/    # Where you define your layout for your website.
-│   ├── partials/
-│   │   └── backlinks.html    # Simulate backlinks function in Hugo.
-│   └── shortcodes/
-│       ├── logseq/    # Translation between Logseq and Hugo.
-│       │   ├── mark.html
-│       │   ├── orgCAUTION.html
-│       │   ├── orgEXAMPLE.html
-│       │   ├── orgIMPORTANT.html
-│       │   ├── orgNOTE.html
-│       │   ├── orgPINNED.html
-│       │   ├── orgQUOTE.html
-│       │   ├── orgTIP.html
-│       │   └── orgWARNING.html
-│       ├── contact.html
-│       ├── hint.html
-│       └── search.html
-├── themes/    # Where you can apply pre-build themes or your own theme.
-│   └── random-theme/   # In this repo, PaperMod is the default theme.
-├── config.yml    # The main settings page for your website.
-└── .gitignore    # This is to prevent unwanted files be tracked by Git.
-```
+    Die fehlende Souveränität am Netzanschlusspunkt behindert die Selbstverantwortung und die aktive Teilnahme lokaler Akteure am Strommarkt. Lokale Märkte und Regeln müssen geschaffen werden, die mehr Autonomie und Verantwortlichkeit auf lokaler Ebene ermöglichen.
+8.  **Endgültige Abkehr vom "Dezentralen Leistungsmarkt" (BDEW 2014) bzw. "Dezentralen Kapazitätsmarkt" (BMWK 2024)**
 
-## 🪜 Workflow
+    Beide Konzepte steigern systematisch die Kosten des Gesamtsystems und kompensieren Standortnachteile von Großkraftwerken zu stark. Stattdessen sollte eine marktwirtschaftlich organisierte und an eine Versicherung angelehnte Kapazitätsabsicherung das bestehende Modell ersetzen. Diese kann von verschiedenen Akteuren wie Aggregatoren, Finanzdienstleistern oder kommunalen EVUs angeboten werden. Dies schafft größere Effizienz, reduziert systemische Kosten und setzt Anreize für eine breite Palette von Marktteilnehmern, flexibler auf Marktbedingungen zu reagieren.
+9.  **Ignorieren der Ergebnisse aus dem Energieforschungsprogramm (Förderprogramm des BMWK)**
 
-This workflow assumes your know something about GitHub.
+    Die Ergebnisse aus dem Energieforschungsprogramm, die zum Teil aus Steuermitteln finanziert wurden, werden in weiten Teilen ignoriert. Diese Ergebnisse sollten als Referenz bei der Gestaltung eines neuen Strommarktdesigns beachtet werden, um die praktische Anwendbarkeit und Effizienz neuer Lösungen zu gewährleisten und diese öffentlichen Investitionen bestmöglich zu nutzen
+10. **Technologieoffenheit vor und hinter dem Stromzähler**
 
-1. Click the green `Use this template` button to fork this template repo.
-2. Rename the forked repo to `{your-GitHub-username}.github.io`, e.g. GitHubUser.github.io.
-3. Clone the repo.
-4. Configure `config.yml`.
-5. Export your Logseq pages to `content/pages`, using [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
-6. Push it to `git@github.com:{username}/{username}.github.io.git`.
-7. After it's pushed, go to "Settings" > "Pages" > "Source" > Choose "gh-pages" branch. (auto-created by [GitHub actions](https://github.com/features/actions))
-8. Wait few minutes for GitHub to deploy.
-9. You should now see your website in `https://{username}.github.io/`, e.g. `https://githubuser.github.io/`! 🍻
-
-## ✨ Things you MUST modify
-
-### In `config.yml`
-
-```yml
-baseURL: https://githubuser.github.io # 1. All lowercase. 2. Don't put `/` after `.io`.
-languageCode: en-us
-title: Linus Torvalds # Your name or the website title.
-theme: 'PaperMod'
-
-params:
-  homeInfoParams:
-    Title: Sup bruh 😎 # homepage title.
-    Content: This is something shows in your homepage. # homepage content.
-
-  socialIcons: # optional
-    - name: 'github'
-      url: 'https://github.com/XXX'
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/channel/XXX"
-    - name: 'twitter'
-      url: 'https://twitter.com/XXX'
-    # - name: "kofi"
-    #   url: "https://buymeacoffee.com/XXX"
-    # - name: "rss"
-    #   url: "https://XXX.github.io/index.xml"
-  ShowReadingTime: true
-  author: 'Linus Torvalds' # Your name.
-  contact: 'LinusT@example.com' # Your email.
-  feedlinks: true
-  copyright: '<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->'
-  mobileMenu: true
-
-  #Google Analytics 4 optional
-  env: #production
-  GoogleAnalytics: "G-00000XXXXX" 
-  sitemap:
-    changefreq: daily
-    filename: sitemap.xml
-    priority: 0.5
-```
-
-### In `content/pages` and `content/assets`
-
-1. Make pages public.
-2. Click on the three dots in the top right corner in Logseq and click `Export public pages to hugo`, via [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger).
-3. Unzip the file and move the contents into `content/`.
-
-※ Noted: The marketplace version of logseq-schrodinger might have some file permission issues. Use the GitHub version one instead.
-
-## How to set the Google Analytics 4?
-
-1. Apply [Google Analytics 4](https://analytics.google.com/)
-2. Write the GA4-ID to config.yml
-3. Set[Google Search Console](https://search.google.com/search-console/welcome)and add sitemap
-
-## How to change theme?
-
-HUGO provides lots of prebuild themes.
-
-1. [Install HUGO and Go](https://gohugo.io/getting-started/installing/).
-2. [Follow the steps](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme).
-
-※ Noted: Structure and configurations might vary from theme to theme.
-
-## ⚠️ Limitations
-
-[logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) is very much a work-in-progress. Please check if there's anything wrong about your post after exported. File an issue if you think something is a bug.
-
-### [What works on logseq-schrodinger so far](https://github.com/sawhney17/logseq-schrodinger#what-works)
-
-- Local Hugo links (but Logseq uses one folder for everything, so Hugo does too)
-- Block refs(!) — On conversion the block is pulled from the other location
-- Images
-  - Notice that the uppercase filenames might be transformed to lowercase, making the remote images invalid, please double-check that.
-- Basic Markdown styling (including highlighting!)
-
-## Issues
-
-[Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
-
-[Issues for this template](https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues)
-
-## Sample Sites
-
-- <https://aryansawhney.com>
-- <https://blog.charliie.dev/>
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+    Lösungen der Sektorenkopplung und X2G (X-to-Grid, z.B. Vehicle-to-Grid) müssen geöffnet und vereinfacht werden. Es soll die Möglichkeit zur souveränen Tarif- und Angebotsgestaltung ab der ersten Kilowattstunde bestehen, um eine breite Akzeptanz und Nutzung dieser Technologien zu fördern.
